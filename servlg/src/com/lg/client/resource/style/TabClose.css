@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+@CHARSET "UTF-8";
+@sprite .btnClose{
+	width:18px;
+	heigth:18px;
+	gwt-image: 'getImgCerrar16';
+}
+
+.lblTitulo{
+	float:left;
+	text-align:left;
+	margin-right:10px;
+        color:#fff;
+}

@@ -1,0 +1,11 @@
+<!-- Indices written at Fri, 10 Apr 2015 23:34:34 PET -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Departamento" ancestor="false" source="auto">
+        <property name="codePais" direction="asc"/>
+        <property name="descripcion" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

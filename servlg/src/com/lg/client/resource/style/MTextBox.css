@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+#mtextbox{
+	border: 0px !important;;
+    width: 100% !important;;
+    font-size: 1.5em !important;;
+}
+
+#mtextbox:focus{
+	box-shadow: 1px 1px 0px #888888 !important;
+}

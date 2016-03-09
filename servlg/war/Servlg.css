@@ -1,0 +1,59 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+
+
+.gwt-MenuBar-horizontal{
+	background: -moz-linear-gradient(center bottom , #1E558B, #1E558B) repeat scroll 0% 0% transparent !important;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #1E558B),color-stop(1, #1E558B)) !important;
+	border-bottom: solid 1px #000 !important;
+}
+
+.gwt-MenuBar-horizontal .gwt-MenuItem {
+vertical-align: middle !important;
+font-weight: bold !important;
+height: 32px;
+color: #FFF !important; 
+}
+
+.gwt-MenuItem-selected{
+	background: none repeat scroll 0% 0% rgb(204, 204, 204) !important;
+	color: #00 !important;
+	font-weight: bold !important;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelContent {
+    padding: 0px !important;
+}
+
+.gwt-TabLayoutPanelContentContainer{
+    width: 100% !important;
+}
+
+.gwt-TabLayoutPanelTab-selected{
+    /*background: -moz-linear-gradient(center bottom , #1E558B, #1E558B) repeat scroll 0% 0% transparent !important;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #1E558B),color-stop(1, #1E558B)) !important; */
+    background: rgb(98, 140, 218) !important;   
+}
+
+ 
+/*.gwt-TextBox {
+    border: 0px !important;;
+    width: 100% !important;;
+    font-size: 1.5em !important;;
+}
+ 
+.gwt-TextBox:focus {
+    box-shadow: 1px 1px 0px #888888 !important;;
+}
+ 
+.gwt-PasswordTextBox{
+    border: 0px !important;;
+    width: 100% !important;;
+    font-size: 1.5em !important;;
+}
+ 
+.gwt-PasswordTextBox:focus {
+    box-shadow: 1px 1px 0px #888888 !important;;
+}*/

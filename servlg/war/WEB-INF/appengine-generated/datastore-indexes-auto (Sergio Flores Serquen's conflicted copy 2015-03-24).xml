@@ -1,0 +1,12 @@
+<!-- Indices written at Mon, 23 Mar 2015 23:36:42 PET -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Correlativo" ancestor="false" source="auto">
+        <property name="codeTipoDoc" direction="asc"/>
+        <property name="estadoActual" direction="asc"/>
+        <property name="serie" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

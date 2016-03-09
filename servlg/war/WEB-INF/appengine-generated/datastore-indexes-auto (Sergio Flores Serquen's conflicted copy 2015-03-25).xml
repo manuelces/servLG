@@ -1,0 +1,23 @@
+<!-- Indices written at Wed, 25 Mar 2015 01:18:13 PET -->
+
+<datastore-indexes>
+
+    <!-- Used 5 times in query history -->
+    <datastore-index kind="Departamento" ancestor="false" source="auto">
+        <property name="codePais" direction="asc"/>
+        <property name="descripcion" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 5 times in query history -->
+    <datastore-index kind="Provincia" ancestor="false" source="auto">
+        <property name="codeDepartamento" direction="asc"/>
+        <property name="descripcion" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 6 times in query history -->
+    <datastore-index kind="Distrito" ancestor="false" source="auto">
+        <property name="codeProvincia" direction="asc"/>
+        <property name="descripcion" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
